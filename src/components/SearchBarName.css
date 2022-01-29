@@ -1,0 +1,24 @@
+.search-block{
+    height: 70px;
+    margin: 20px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.search-block input{
+    flex: 1;
+    background-color: transparent;
+    border: none;
+    font-size: 35px;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.search-block input:focus{
+    border:none;
+    box-shadow: none;
+    outline: none;
+}

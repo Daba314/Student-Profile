@@ -1,0 +1,26 @@
+.tag-search{
+    height: 16px;
+    margin-top: 10px;
+    display: flex;
+    border-bottom: 2px solid black;
+}
+
+.tag-search input{
+    flex: 1;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tag-search input:focus{
+    border:none;
+    box-shadow: none;
+    outline: none;
+}
+.added-tag{
+    padding: 5px;
+    background-color: rgb(224,224,224);
+}

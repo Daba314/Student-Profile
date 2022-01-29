@@ -1,0 +1,35 @@
+.post{
+    display: flex;
+    min-height: 200px;
+    margin-bottom: 8px;
+}
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid grey;
+    margin-left: 4px;
+    justify-content: center;
+}
+.post-content{
+    margin-left: 18px;
+}
+.post-content h1{
+    text-transform: uppercase;
+}
+
+.picture-container{
+    display: flex;
+    align-items: flex-start;
+}
+.button-change{
+    position: absolute;
+    right: 0;
+}
+.button-change .switch-grade-list{
+    font-size: 50px;
+    font-weight: 200;
+    color: rgb(99, 97, 97);
+    border: none;
+    background-color: white;
+}
